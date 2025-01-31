@@ -19,5 +19,7 @@ II. Create a **EVENTBUS** and create a **rule** with the below pattern in that e
 
 
 III. Create an **SNS_TOPIC** and subscribe to that with the email.
-IV. Create a **LAMBDA_FUNCTION** .
+
+IV. Create a **LAMBDA_FUNCTION**.
+
 V. Create the backup vault in **AWS_BACKUP**.
