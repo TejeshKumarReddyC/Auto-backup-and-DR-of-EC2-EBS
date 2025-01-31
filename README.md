@@ -14,7 +14,7 @@ II. Create a **EVENTBUS** and create a **rule** with the below pattern in that e
   "detail-type": ["EC2 Instance State-change Notification"],
   "detail": {
     "state": ["stopped", "running"],
-    "instance-id": ["i-0727bae889d7b4e7a"]
+    "instance-id": ["Your_instance_id"]
   }
 }
 
