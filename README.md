@@ -8,6 +8,7 @@ In this project whenever an **EC2** instance is powered on or powered off then i
 I. Launch an **EC2** instance.
 II. Create a **EVENTBUS** and create a **rule** with the below pattern in that eventbus.
     Note: Replace the instance_id with yours.
+    
     {
   "source": ["aws.ec2"],
   "detail-type": ["EC2 Instance State-change Notification"],
